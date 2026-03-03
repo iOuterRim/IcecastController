@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#003C8F</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="secondary">#0288D1</color>
+    <color name="error">#C62828</color>
+
+    <!-- Background / Surface -->
+    <color name="background">#F0F4F8</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Status Colors -->
+    <color name="status_idle">#607D8B</color>
+    <color name="status_playing">#2E7D32</color>
+    <color name="status_paused">#F57F17</color>
+    <color name="status_buffering">#1565C0</color>
+    <color name="status_error">#C62828</color>
+
+    <!-- Item states -->
+    <color name="item_selected_bg">#E3F2FD</color>
+    <color name="item_selected_stroke">#1565C0</color>
+    <color name="item_default_stroke">#E0E0E0</color>
+</resources>
