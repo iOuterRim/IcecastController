@@ -189,22 +189,12 @@ class MainActivity : AppCompatActivity() {
                     val session = castContext.sessionManager.currentCastSession
                     session?.volume = vol
                     viewModel.updateVolume(progress / 100f)
-                    binding.tvVolumeValue.text = "$progress%"
+                    //binding.tvVolumeValue.text = "$progress%"
                 }
             }
             override fun onStartTrackingTouch(seekBar: android.widget.SeekBar?) {}
             override fun onStopTrackingTouch(seekBar: android.widget.SeekBar?) {}
         })
-
-        // Volume-Buttons
-        binding.btnVolDown.setOnClickListener {
-            val current = binding.seekbarVolume.progress
-            binding.seekbarVolume.progress = maxOf(0, current - 5)
-        }
-        binding.btnVolUp.setOnClickListener {
-            val current = binding.seekbarVolume.progress
-            binding.seekbarVolume.progress = minOf(100, current + 5)
-        }
     }
 
     private fun castStream(source: StreamSource) {
