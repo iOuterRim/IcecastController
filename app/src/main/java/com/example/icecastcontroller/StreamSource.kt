@@ -22,8 +22,9 @@ data class StreamSource(
 
         // Einige Demo-Quellen
         val EXAMPLES = listOf(
+            StreamSource(name = "1.FM Costa Del Mar", url = "http://strm112.1.fm/costadelmarchillout_mobile_mp3", mimeType = "audio/mpeg"),
             StreamSource(name = "SWR3", url = "https://liveradio.swr.de/sw890cl/swr3/", mimeType = "audio/mpeg"),
-            StreamSource(name = "Bayern 3", url = "https://streams.br.de/bayern3_2.m3u8", mimeType = "audio/mpeg"),
+            StreamSource(name = "Bayern 3", url = "https://dispatcher.rndfnk.com/br/br3/live/mp3/low", mimeType = "audio/mpeg"),
             StreamSource(name = "Deutschlandfunk", url = "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3", mimeType = "audio/mpeg"),
         )
     }
